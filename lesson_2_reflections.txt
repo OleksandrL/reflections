@@ -1,0 +1,31 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	1. Коли ініціалізується репозиторій, створюється прихована тека .git, котра
+	містить інформацію про стан проекту: активну версію; всі присутні версії.
+	Це робиться для того, щоб включити систему контролю версій для даної теки, 
+	тобто створити репозиторій Git.
+	
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	1. staging area, на відміну від робочої директорії, є частиною системи контролю
+	версій. Система починає спостерігати за файлами, що поміщені на сцену. Це перехід
+	між директорією та репозиторієм. Репозиторій містить версії зібраного проекту, тоді
+	як сцена містить окремі файли, які можна змінювати. Тобто, сцена містить поточну 
+	модифікацію проекту, яка ще не затверджена. В репозиторій проект заносять тоді, коли
+	є завершена логічна зміна коду. На сцену виносять тоді, коли необхідно відслідковувати
+	зміни файлів, які знаходяться на етапі модифікації.
+	
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of GitвЂ™s automatic merging vs. always doing merges
+manually?
