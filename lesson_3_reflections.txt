@@ -2,6 +2,7 @@ When would you want to create a remote repository rather than keeping all your w
   
   Віддалений репозиторій створюють тоді, коли потрібно поділитися кодом, проектом із зовнішніми суб'єктами. Тоді ваші
   співробітники можуть використовувати уже створений проект і одночасно з ним працювати, використовувати у своїх цілях.
+  А також це зручно для роботи з проектом з різних комп'ютерів.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
